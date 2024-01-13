@@ -1,1 +1,17 @@
-<app-chart></app-chart>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-4">
+      <qrcode [qrdata]="'Your data string'" [width]="256" [errorCorrectionLevel]="'M'"></qrcode>
+    </div>
+    <div class="col-lg-8">
+      <app-chart></app-chart>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6"></div>
+    <div class="col-lg-6"></div>
+  </div>
+  <div class="row">
+
+  </div>
+</div>
